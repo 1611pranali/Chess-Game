@@ -12,7 +12,7 @@ function Front() {
   }
   return (
     <div>
-      <h1> Chess Game </h1>
+      <h1>""CHESS GAME""</h1>
       <h1> """When you see a good move look for a better one""" </h1>
       <h1> Game Instructions: </h1>
       <h2>⦿ White Goes First </h2>
@@ -28,10 +28,8 @@ function Front() {
       <h2> ⦿ There is also a button for On/Off suggested moves. </h2>
       {/* <input onChange={First} value={first} placeholder="Player1" /> */}
       <Link to="/chess">
-        <button> Let's Play 🧐</button>
+        <button> -START PLAY-</button>
       </Link>
-      {/* <input onChange={Second} value={second} placeholder="Player2" /> */}
-      <h3> Made with ♥ by Tushar Garg </h3>
     </div>
   );
 }

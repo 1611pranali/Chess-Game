@@ -1,4 +1,4 @@
-// Rook: hathi, Pawn: sainik , Knight: Ghoda, Queen: wazir,
+// Rook: hatti, Pawn: sainik , Knight: Ghoda, Queen: wazir,
 // Bishop: Unth , King : raja
 const moves = {
   Rook: [

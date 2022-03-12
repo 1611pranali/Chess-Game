@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color: hsl(33, 100%, 88%);
   text-align: center;
   margin: 0px auto;
 }
@@ -19,7 +19,7 @@ h2 {
   margin-left: 200px;
   margin-right: 100px;
   text-align: left;
-  color: darkgreen;
+  color: rgb(7, 7, 7);
 }
 .App {
   font-family: sans-serif;
@@ -27,7 +27,7 @@ h2 {
 }
 h1 {
   font-family: "Montserrat", sans-serif;
-  color: orange;
+  color: rgb(97, 25, 231);
 }
 .img {
   height: 70px;
@@ -45,22 +45,22 @@ h1 {
   /* background-color: brown; */
 }
 .blue {
-  background-color: blue;
+  background-color: rgb(149, 149, 223);
 }
 .yellow {
-  background-color: yellow;
+  background-color: rgb(149, 149, 223);
 }
 .red {
-  background-color: red;
+  background-color: rgb(149, 149, 223);
 }
 .selected {
-  background-color: white;
+  background-color: rgb(149, 149, 223);
 }
 .brown {
-  background-color: brown;
+  background-color: rgb(81, 146, 90);
 }
 .light-brown {
-  background-color: burlywood;
+  background-color: rgb(235, 235, 186);
 }
 .loader {
   top: 50%;
