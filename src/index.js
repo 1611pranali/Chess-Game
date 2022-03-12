@@ -1,12 +1,12 @@
-import { StrictMode } from "react";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import { React } from "react";
 import ReactDOM from "react-dom";
-
-import App from "./App";
-
-const rootElement = document.getElementById("root");
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./styles.css";
+import Start from "./Start";
 ReactDOM.render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-  rootElement
+  <Router>
+    <Route path="/" component={Start}></Route>
+  </Router>,
+  document.getElementById("root")
 );

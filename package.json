@@ -1,13 +1,23 @@
 {
-  "name": "react",
+  "name": "chess-game",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": ["react", "starter"],
+  "description": "",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.3",
+    "@fortawesome/fontawesome-svg-core": "1.2.35",
+    "@fortawesome/free-solid-svg-icons": "5.15.3",
+    "@fortawesome/react-fontawesome": "0.1.14",
+    "bootstrap": "5.0.1",
+    "font-awesome": "4.7.0",
     "react": "17.0.2",
+    "react-bootstrap": "1.6.0",
     "react-dom": "17.0.2",
-    "react-scripts": "4.0.0"
+    "react-loader-spinner": "4.0.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.0",
+    "sweetalert": "2.1.2"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
